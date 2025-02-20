@@ -1,0 +1,108 @@
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.Education-list{
+    display: none;
+    margin-top: 10px;
+    padding: 0;
+}
+.popup-btn:focus .Education-list {
+    display: block;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Style the button */
+.popup-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.popup-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.skills-list {
+    display: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.popup-btn:focus .skills-list {
+    display: block;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Project {
+    display: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.popup-btn:focus .Project {
+    display: block;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.projects .project {
+    background: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.Address-Contacts{
+    display: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.popup-btn:focus .Address-Contacts{
+    display: block;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
